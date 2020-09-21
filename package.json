@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "ts-node test/test.ts",
-    "compile": "shx rm -rf lib && tsc"
+    "compile": "shx rm -rf lib && tsc",
+    "postinstall": "npm run compile"
   },
   "author": {
     "name": "ShinChven ZHANG",
